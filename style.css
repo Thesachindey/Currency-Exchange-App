@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4e4ba;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    /*min dily boro hoy*/
+    min-width: 40vw;
+
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+    /* clock wise */
+}
+
+from,
+select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: .75rem;
+}
+
+#inputA {
+    border: 1px solid gray;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: .75rem;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+.select-cont img {
+    max-width: 2rem;
+    /*max dily coto hoy;*/
+}
+
+.select-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    width: 6rem;
+}
+
+.select-cont select {
+    font-size: 1rem;
+    width: auto;
+    color: blueviolet;
+    
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    /*clock wise*/
+    overflow:scroll;
+    scrollbar-width:none;
+}
+
+#fromBtn{
+    height: 3rem;
+    /* background-color: #af4d98; */
+    /* color: white; */
+    font-size: 1.15rem;
+    cursor: pointer;
+
+}
