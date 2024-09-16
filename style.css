@@ -26,7 +26,7 @@ form {
     
 }
 
-from,
+
 select,
 button,
 input {
@@ -42,7 +42,7 @@ input {
     font-size: 1rem;
     padding-left: .75rem;
     background-color: transparent;
-    color: white;
+    color: rgba(255, 255, 255, 0.788);
     
 }
 
@@ -126,7 +126,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .msg{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgba(242, 245, 252, 0.822);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     
 }
