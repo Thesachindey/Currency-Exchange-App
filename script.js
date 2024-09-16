@@ -61,7 +61,7 @@ const updateExchangeRate= async ()=>{
     let finalAmount= amtVal*rete;
     console.log(response)
 
-    msg.innerText=`${amtVal} ${fromCurr.value}= ${finalAmount} ${toCurr.value}`;
+    msg.innerText=`${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 
     
 }
